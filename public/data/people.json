@@ -221,7 +221,7 @@
         "position": "SNU ECE",
         "image": "/images/people/protected.jpg",
         "website": null,
-        "email": "",
+        "email": "jakejaejin@snu.ac.kr",
         "github": ""
       },
       {
@@ -229,7 +229,7 @@
         "position": "SNU CSE",
         "image": "/images/people/.jpg",
         "website": null,
-        "email": "",
+        "email": "jhwaang@snu.ac.kr",
         "github": ""
       },
       {
@@ -266,7 +266,7 @@
       },
       {
         "name": "Yoonhyung Park",
-        "position": "EWHA ECE",
+        "position": "EWHA CS",
         "image": "/images/people/yoonhyungpark_protected.jpg",
         "website": null,
         "email": "pyoon820@gmail.com",
@@ -282,10 +282,10 @@
       },
       {
         "name": "Seoyoon Lee",
-        "position": "SNU ?",
+        "position": "SNU ECE",
         "image": "/images/people/_protected.jpg",
         "website": null,
-        "email": "",
+        "email": "ocher82@snu.ac.kr",
         "github": ""
       }
     ],
