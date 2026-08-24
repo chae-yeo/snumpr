@@ -128,7 +128,7 @@
         "name": "Chaewon Yeo",
         "position": "MS/Ph.D. Student",
         "image": "/images/people/chaewonyeo_protected.jpg",
-        "website": null,
+        "website": "https://chae-yeo.github.io/",
         "email": "chaewon.yeo@snu.ac.kr",
         "github": "http://github.com/Chaewon-Yeo"
       },
@@ -211,9 +211,9 @@
       {
         "name": "Junha Park",
         "position": "SNU ECE",
-        "image": "/images/people/protected.jpg",
+        "image": "/images/people/junhapark_protected.jpeg",
         "website": null,
-        "email": "",
+        "email": "junha_0212@snu.ac.kr",
         "github": ""
       },
       {
@@ -235,17 +235,17 @@
       {
         "name": "Junhyuk Park",
         "position": "SNU ASE",
-        "image": "/images/people/protected.jpg",
+        "image": "/images/people/junhyukpark_protected.png",
         "website": null,
-        "email": "",
+        "email": "parkjun0204@snu.ac.kr",
         "github": ""
       },
       {
         "name": "Jehyeok Choe",
         "position": "SNU ECE",
-        "image": "/images/people/protected.jpg",
+        "image": "/images/people/jehyeokchoe_protected.png",
         "website": null,
-        "email": "",
+        "email": "jehyeok@snu.ac.kr",
         "github": ""
       },
       {
