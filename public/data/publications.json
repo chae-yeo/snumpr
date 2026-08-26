@@ -106,6 +106,48 @@
     "recognition": []
   },
   {
+    "title": "Risk-adaptive Activation Steering for Safe Multimodal Large Language Models",
+    "authors": [
+      "Jonghyun Park",
+      "Minhyuk Seo",
+      "Chaewon Yeo",
+      "Jonghyun Choi"
+    ],
+    "journalsInfo": "ECCV 2026 / CIKM 2025 Workshop of HCAI - ORAL & Best Paper Award",
+    "thumbnailUrl": "/images/publications/arxiv2510-moras.png",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2510.13698"
+      },
+      {
+        "label": "PDF (Workshop Version)",
+        "url": "https://xai.kaist.ac.kr/static/files/2025_hcai_workshop/paper_24.pdf"
+      },
+      {
+        "label": "Workshop Page",
+        "url": "https://xai.kaist.ac.kr/Workshop/hcai2025/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/snumprlab/moras"
+      }
+    ],
+    "researchTopic": [
+      "Foundation Models & Alignment",
+      "Embodied & Multimodal AI"
+    ],
+    "year": "2026",
+    "modality": [
+      "Vision",
+      "Language"
+    ],
+    "recognition": [
+      "Award winning",
+      "Oral/Spotlight"
+    ]
+  },
+  {
     "title": "Modular Memory is the Key to Continual Learning Agents",
     "authors": [
       "Vaggelis Dorovatas",
@@ -189,48 +231,6 @@
       "Language"
     ],
     "recognition": [
-      "Oral/Spotlight"
-    ]
-  },
-  {
-    "title": "Risk-adaptive Activation Steering for Safe Multimodal Large Language Models",
-    "authors": [
-      "Jonghyun Park",
-      "Minhyuk Seo",
-      "Chaewon Yeo",
-      "Jonghyun Choi"
-    ],
-    "journalsInfo": "ECCV 2026 / CIKM 2025 Workshop of HCAI - ORAL & Best Paper Award",
-    "thumbnailUrl": "/images/publications/arxiv2510-moras.png",
-    "links": [
-      {
-        "label": "PDF",
-        "url": "https://arxiv.org/pdf/2510.13698"
-      },
-      {
-        "label": "PDF (Workshop Version)",
-        "url": "https://xai.kaist.ac.kr/static/files/2025_hcai_workshop/paper_24.pdf"
-      },
-      {
-        "label": "Workshop Page",
-        "url": "https://xai.kaist.ac.kr/Workshop/hcai2025/"
-      },
-      {
-        "label": "Code",
-        "url": "https://github.com/snumprlab/moras"
-      }
-    ],
-    "researchTopic": [
-      "Foundation Models & Alignment",
-      "Embodied & Multimodal AI"
-    ],
-    "year": "2026",
-    "modality": [
-      "Vision",
-      "Language"
-    ],
-    "recognition": [
-      "Award winning",
       "Oral/Spotlight"
     ]
   },

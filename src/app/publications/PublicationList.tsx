@@ -9,9 +9,10 @@ import Image from 'next/image';
 
 interface PublicationListProps {
   publications: PublicationItem[];
+  authorWebsites: Record<string, string>;
 }
 
-export default function PublicationList({ publications }: PublicationListProps) {
+export default function PublicationList({ publications, authorWebsites }: PublicationListProps) {
   const { filters, setFilters } = usePublicationFilters();
 
   const options = useMemo(() => {
@@ -53,7 +54,7 @@ export default function PublicationList({ publications }: PublicationListProps) 
 
               <div className={styles.pubYearList}>
                 {publications.map((pub) => (
-                  <PublicationItemView pub={pub} key={pub.title} />
+                  <PublicationItemView pub={pub} authorWebsites={authorWebsites} key={pub.title} />
                 ))}
               </div>
             </section>
@@ -304,9 +305,38 @@ function FilteredList({
 
 const MAX_VISIBLE_AUTHORS = 8;
 
-function formatAuthors(authors: string[]): string {
-  if (authors.length <= MAX_VISIBLE_AUTHORS) return authors.join(', ');
-  return `${authors.slice(0, MAX_VISIBLE_AUTHORS).join(', ')}, et al.`;
+function normalizeAuthorName(name: string) {
+  return name.replace(/[^a-z]/gi, '').toLocaleLowerCase();
+}
+
+function renderAuthors(authors: string[], authorWebsites: Record<string, string>): React.ReactNode {
+  const visibleAuthors = authors.slice(0, MAX_VISIBLE_AUTHORS);
+
+  return (
+    <>
+      {visibleAuthors.map((author, index) => {
+        const website = authorWebsites[normalizeAuthorName(author)];
+        return (
+          <span key={`${author}-${index}`}>
+            {index > 0 && ', '}
+            {website ? (
+              <a
+                href={website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.authorLink}
+              >
+                {author}
+              </a>
+            ) : (
+              author
+            )}
+          </span>
+        );
+      })}
+      {authors.length > MAX_VISIBLE_AUTHORS && ', et al.'}
+    </>
+  );
 }
 
 const HIGHLIGHT_TERMS = ['ORAL', 'Spotlight', 'Best Paper Award'];
@@ -324,8 +354,14 @@ function renderJournalsInfo(text: string): React.ReactNode {
   );
 }
 
-function PublicationItemView({ pub }: { pub: PublicationItem }) {
-  const authorsText = formatAuthors(pub.authors);
+function PublicationItemView({
+  pub,
+  authorWebsites,
+}: {
+  pub: PublicationItem;
+  authorWebsites: Record<string, string>;
+}) {
+  const authors = renderAuthors(pub.authors, authorWebsites);
   const thumbnailUrl = pub.thumbnailUrl;
   const hasMedal = pub.recognition.some(
     (recognition) => recognition === 'Award winning' || recognition === 'Oral/Spotlight',
@@ -375,14 +411,14 @@ function PublicationItemView({ pub }: { pub: PublicationItem }) {
         </div>
         <div className={styles.mobileDetailsWrapper}>
           <p className={styles.articleTitle}>{pub.title}</p>
-          <p className={styles.authorsText}>{authorsText}</p>
+          <p className={styles.authorsText}>{authors}</p>
           <p className={styles.journalsText}>{renderJournalsInfo(pub.journalsInfo)}</p>
         </div>
       </div>
       <div className={styles.infoWrapper}>
         <div className={styles.detailsWrapper}>
           <p className={styles.articleTitle}>{pub.title}</p>
-          <p className={styles.authorsText}>{authorsText}</p>
+          <p className={styles.authorsText}>{authors}</p>
           <p className={styles.journalsText}>{renderJournalsInfo(pub.journalsInfo)}</p>
         </div>
         <div className={styles.linksWrapper}>

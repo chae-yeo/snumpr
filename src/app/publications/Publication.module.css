@@ -248,6 +248,15 @@
   overflow: hidden;
 }
 
+.authorLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.authorLink:hover {
+  color: var(--color-primary);
+}
+
 .journalsText {
   font-size: 1.4rem;
   line-height: 1;
