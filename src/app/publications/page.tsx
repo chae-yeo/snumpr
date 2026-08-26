@@ -14,7 +14,7 @@ export default function PublicationsPage() {
   const authorWebsites = Object.values(peopleData.members)
     .flat()
     .reduce<Record<string, string>>((websites, member) => {
-      if (member.website) {
+      if ('website' in member && member.website) {
         websites[normalizeAuthorName(member.name)] = member.website;
       }
       return websites;
