@@ -8,7 +8,7 @@
     "date": "August 3, 2026",
     "location": "Busan, Korea",
     "images": [
-      "/images/gallery/2026kccv.jpg"
+      "/images/gallery/2026kccv_protected.jpg"
     ]
   },
   {
@@ -20,12 +20,12 @@
     "date": "July 6, 2026",
     "location": "Seoul, Korea",
     "images": [
-      "/images/gallery/2026icml1.jpg",
-      "/images/gallery/2026icml2.jpg",
-      "/images/gallery/2026icml3.jpg",
-      "/images/gallery/2026icml4.jpg",
-      "/images/gallery/2026icml5.jpg",
-      "/images/gallery/2026icml6.jpg"
+      "/images/gallery/2026icml1_protected.jpg",
+      "/images/gallery/2026icml2_protected.jpg",
+      "/images/gallery/2026icml3_protected.jpg",
+      "/images/gallery/2026icml4_protected.jpg",
+      "/images/gallery/2026icml5_protected.jpg",
+      "/images/gallery/2026icml6_protected.jpg"
     ]
   },
   {
@@ -37,9 +37,9 @@
     "date": "July 2, 2026",
     "location": "Gyeonggi-do, Korea",
     "images": [
-      "/images/gallery/2026workshop1.jpeg",
-      "/images/gallery/2026workshop2.jpg",
-      "/images/gallery/2026workshop3.jpg"
+      "/images/gallery/2026workshop1_protected.jpeg",
+      "/images/gallery/2026workshop2_protected.jpg",
+      "/images/gallery/2026workshop3_protected.jpg"
     ]
   },
   {
@@ -51,9 +51,9 @@
     "date": "July 2, 2026",
     "location": "San Diego, California, USA",
     "images": [
-      "/images/gallery/2026acl1.jpeg",
-      "/images/gallery/2026acl2.jpeg",
-      "/images/gallery/2026acl3.jpg"
+      "/images/gallery/2026acl1_protected.jpeg",
+      "/images/gallery/2026acl2_protected.jpeg",
+      "/images/gallery/2026acl3_protected.jpg"
     ]
   },
   {
@@ -65,12 +65,12 @@
     "date": "April 23, 2026",
     "location": "Rio de Janeiro, Brazil",
     "images": [
-      "/images/gallery/2026iclr1.jpeg",
-      "/images/gallery/2026iclr2.jpeg",
-      "/images/gallery/2026iclr3.jpg",
-      "/images/gallery/2026iclr4.jpg",
-      "/images/gallery/2026iclr5.jpg",
-      "/images/gallery/2026iclr6.jpg"
+      "/images/gallery/2026iclr1_protected.jpeg",
+      "/images/gallery/2026iclr2_protected.jpeg",
+      "/images/gallery/2026iclr3_protected.jpg",
+      "/images/gallery/2026iclr4_protected.jpg",
+      "/images/gallery/2026iclr5_protected.jpg",
+      "/images/gallery/2026iclr6_protected.jpg"
     ]
   },
   {
@@ -82,7 +82,7 @@
     "date": "May 15, 2026",
     "location": "Seoul, Korea",
     "images": [
-      "/images/gallery/2026teachersday.jpg"
+      "/images/gallery/2026teachersday_protected.jpg"
     ]
   }
 ]
