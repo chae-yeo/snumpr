@@ -486,6 +486,14 @@
       {
         "label": "PDF (arXiv)",
         "url": "https://www.arxiv.org/pdf/2512.08979"
+      },
+      {
+        "label": "Project Page",
+        "url": "https://dcahn12.github.io/projects/vector/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/snumprlab/vector"
       }
     ],
     "researchTopic": [
