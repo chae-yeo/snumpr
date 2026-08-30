@@ -366,7 +366,7 @@ function PublicationItemView({
   const hasMedal = pub.recognition.some(
     (recognition) => recognition === 'Award winning' || recognition === 'Oral/Spotlight',
   );
-  const medalCount = hasMedal ? Math.max(1, pub.recognitionVenues?.length ?? 1) : 0;
+  const medalCount = hasMedal ? 1 : 0;
   const hasMultipleMedals = medalCount > 1;
   const medalSource = pub.journalsInfo.includes('Spotlight')
     ? '/icons/publication/medal2.png'

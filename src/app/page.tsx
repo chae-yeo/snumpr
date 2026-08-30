@@ -1,3 +1,6 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './page.module.css';
@@ -8,9 +11,59 @@ import FadeIn from '../components/FadeIn';
 const highlights: HighlightItem[] = highlightsData;
 const HIGHLIGHTS_PREVIEW_COUNT = 4;
 
-export default function Home() {
+function NewsModal({ item, onClose }: { item: HighlightItem; onClose: () => void }) {
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') onClose();
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = '';
+    };
+  }, [onClose]);
+
   return (
-    <main className={styles.main}>
+    <div className={styles.newsModalOverlay} onClick={onClose} role="presentation">
+      <section
+        className={styles.newsModalContent}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="news-modal-title"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <button className={styles.newsModalCloseButton} onClick={onClose} aria-label="Close">
+          ✕
+        </button>
+        <div className={styles.newsModalImageWrapper}>
+          <Image
+            src={item.imageUrl}
+            alt={item.title}
+            fill
+            sizes="(max-width: 900px) 100vw, 900px"
+            className={styles.image}
+          />
+        </div>
+        <div className={styles.newsModalInfo}>
+          <h2 id="news-modal-title" className={styles.newsModalTitle}>
+            {item.title}
+          </h2>
+          <p className={styles.newsModalDetails}>{item.details}</p>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default function Home() {
+  const [selectedItem, setSelectedItem] = useState<HighlightItem | null>(null);
+
+  return (
+    <>
+      <main className={styles.main}>
       <FadeIn>
           <section className={`${styles.section} ${styles.newsSection}`}>
             <div className={styles.newsIntro}>
@@ -46,7 +99,7 @@ export default function Home() {
       <FadeIn>
         <section className={`${styles.section} ${styles.highlightsSection}`}>
           <div className={styles.highlightsHeader}>
-            <h2 className={styles.sectionTitle}>Highlights</h2>
+            <h2 className={styles.sectionTitle}>Recent News</h2>
             <Link href="/highlights" className={styles.seeAllLink}>
               <span className={styles.seeAllText}>See all</span>
               <svg
@@ -66,7 +119,20 @@ export default function Home() {
           </div>
           <div className={styles.highlightsGrid}>
             {highlights.slice(0, HIGHLIGHTS_PREVIEW_COUNT).map((item, idx) => (
-              <article key={item.id} className={styles.highlightCard}>
+              <article
+                key={item.id}
+                className={styles.highlightCard}
+                onClick={() => setSelectedItem(item)}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    setSelectedItem(item);
+                  }
+                }}
+                role="button"
+                tabIndex={0}
+                aria-label={`${item.title} 자세히 보기`}
+              >
                 <div className={styles.highlightImageWrapper}>
                   <Image
                     src={item.imageUrl}
@@ -86,6 +152,8 @@ export default function Home() {
           </div>
         </section>
       </FadeIn>
-    </main>
+      </main>
+      {selectedItem && <NewsModal item={selectedItem} onClose={() => setSelectedItem(null)} />}
+    </>
   );
 }

@@ -244,6 +244,30 @@
 .highlightCard {
   display: flex;
   flex-direction: column;
+  position: relative;
+  cursor: pointer;
+}
+
+.highlightCard::before {
+  position: absolute;
+  inset: -2rem;
+  z-index: 0;
+  border-radius: 1.6rem;
+  content: '';
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.highlightCard > * {
+  position: relative;
+  z-index: 1;
+}
+
+.highlightCard:hover::before,
+.highlightCard:focus-visible::before {
+  opacity: 1;
+  box-shadow: 0 6px 16px var(--color-shadow-faint);
 }
 
 .highlightImageWrapper {
@@ -253,4 +277,115 @@
   background-color: var(--gray);
   margin-bottom: 1.2rem;
   overflow: hidden;
+}
+
+.newsModalOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: var(--color-overlay-dark);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  animation: newsModalOverlayFadeIn 0.3s ease;
+}
+
+@keyframes newsModalOverlayFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.newsModalContent {
+  position: relative;
+  width: 100%;
+  max-width: 90rem;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 1.2rem;
+  border-radius: 1.6rem;
+  background: var(--white);
+  animation: newsModalSlideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes newsModalSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.newsModalCloseButton {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  z-index: 2;
+  display: flex;
+  width: 3.6rem;
+  height: 3.6rem;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: var(--color-overlay-light);
+  color: var(--black);
+  cursor: pointer;
+  font-size: 1.8rem;
+  transition: background 0.2s ease;
+}
+
+.newsModalCloseButton:hover {
+  background: var(--color-white);
+}
+
+.newsModalImageWrapper {
+  position: relative;
+  width: min(100%, 78rem);
+  margin: 0 auto;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  background-color: var(--divider-gray);
+}
+
+.newsModalInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 2.4rem 2rem 2rem;
+}
+
+.newsModalTitle {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.newsModalDetails {
+  color: var(--text-gray);
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 900px) {
+  .newsModalOverlay {
+    padding: 1rem;
+  }
+
+  .newsModalInfo {
+    padding: 1.8rem 0.8rem 1.2rem;
+  }
+
+  .newsModalTitle {
+    font-size: 2rem;
+  }
 }

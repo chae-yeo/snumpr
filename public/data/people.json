@@ -17,14 +17,6 @@
         "website": "https://smmmmi.github.io/",
         "email": "mostafavi.isfahani@gmail.com",
         "github": "http://github.com/smmmmi"
-      },
-      {
-        "name": "Minhyuk Seo",
-        "position": "Post-Master Researcher (also w/ KU Leuven)",
-        "image": "/images/people/minhyukseo_protected.jpg",
-        "website": "https://dbd05088.github.io/",
-        "email": "dbd05088@naver.com",
-        "github": "http://github.com/dbd05088"
       }
     ],
     "phd_students": [
@@ -185,30 +177,6 @@
     ],
     "undergraduate_interns": [
       {
-        "name": "Sungkyung Kim",
-        "position": "SNU ECE",
-        "image": "/images/people/sungkyungkim_protected.jpg",
-        "website": null,
-        "email": "sk0428@snu.ac.kr",
-        "github": "http://github.com/waitzkin"
-      },
-      {
-        "name": "Minjae Lee (B)",
-        "position": "SNU CSE",
-        "image": "/images/people/minjaelee-b_protected.jpg",
-        "website": null,
-        "email": "herry123435@snu.ac.kr",
-        "github": "http://github.com/herry123435"
-      },
-      {
-        "name": "Sanghyun Hahn",
-        "position": "SNU ASE",
-        "image": "/images/people/sanghyunhahn_protected.jpg",
-        "website": null,
-        "email": "steve0221@snu.ac.kr",
-        "github": "http://github.com/hshhahn"
-      },
-      {
         "name": "Junha Park",
         "position": "SNU ECE",
         "image": "/images/people/junhapark_protected.jpeg",
@@ -250,7 +218,7 @@
       },
       {
         "name": "Yejun Kim",
-        "position": "SKK ECE",
+        "position": "SKKU ECE",
         "image": "/images/people/yejunkim_protected.jpg",
         "website": null,
         "email": "kimyejun0318@gmail.com",
@@ -265,14 +233,6 @@
         "github": "https://github.com/Hleephilip"
       },
       {
-        "name": "Yoonhyung Park",
-        "position": "EWHA CS",
-        "image": "/images/people/yoonhyungpark_protected.jpg",
-        "website": null,
-        "email": "pyoon820@gmail.com",
-        "github": "http://github.com/hello820820"
-      },
-      {
         "name": "Yusin Kim",
         "position": "SNU ECE",
         "image": "/images/people/yusinkim_protected.jpg",
@@ -283,7 +243,7 @@
       {
         "name": "Seoyoon Lee",
         "position": "SNU ECE",
-        "image": "/images/people/_protected.jpg",
+        "image": "/images/people/seoyoonlee_protected.jpg",
         "website": null,
         "email": "ocher82@snu.ac.kr",
         "github": ""
@@ -400,6 +360,21 @@
       }
     ],
     "alumni_undergrad": [
+      {
+        "name": "Sungkyung Kim",
+        "degree": "SNU BS, 2026",
+        "current": "MS student @ Georgia Inst. of Tech"
+      },
+      {
+        "name": "Minjae Lee (B)",
+        "degree": "SNU BS, 2026",
+        "current": "MS student @ Georgia Inst. of Tech"
+      },
+      {
+        "name": "Sanghyun Hahn",
+        "degree": "SNU BS, 2026",
+        "current": "PhD student @ Cornell University"
+      },
       {
         "name": "Chaeeun Lee",
         "degree": "SKKU BS, 2025",
