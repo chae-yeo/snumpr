@@ -67,6 +67,8 @@ export default function PublicationList({ publications, authorWebsites }: Public
 
 const filterLabels = ['researchTopic', 'modality', 'recognition'] as const;
 const recognitionOptions = ['Award winning', 'Oral/Spotlight', 'Highly cited'];
+const formatRecognitionLabel = (value: string) =>
+  value === 'Oral/Spotlight' ? 'Oral / Spotlight' : value;
 const publicationFiltersSchema = {
   modality: parseAsArrayOf(parseAsString).withDefault([]),
   recognition: parseAsArrayOf(parseAsString).withDefault([]),
@@ -213,7 +215,10 @@ function PublicationFilterController({
         const currentValues = filters[l];
         const isOpen = openFilter === l;
         const defaultLabel = l === 'recognition' ? 'None' : 'All';
-        const displayText = currentValues.length === 0 ? defaultLabel : currentValues.join(', ');
+        const displayText =
+          currentValues.length === 0
+            ? defaultLabel
+            : currentValues.map(formatRecognitionLabel).join(', ');
 
         return (
           <div key={l} className={styles.filterGroup}>
@@ -244,7 +249,7 @@ function PublicationFilterController({
                         className={`${styles.optionItem} ${selected ? styles.optionItemSelected : ''}`}
                         onClick={() => toggleOption(l, o)}
                       >
-                        <span className={styles.optionLabel}>{o}</span>
+                        <span className={styles.optionLabel}>{formatRecognitionLabel(o)}</span>
                         {selected && <CheckIcon />}
                       </li>
                     );
@@ -303,18 +308,14 @@ function FilteredList({
   );
 }
 
-const MAX_VISIBLE_AUTHORS = 8;
-
 function normalizeAuthorName(name: string) {
   return name.replace(/[^a-z]/gi, '').toLocaleLowerCase();
 }
 
 function renderAuthors(authors: string[], authorWebsites: Record<string, string>): React.ReactNode {
-  const visibleAuthors = authors.slice(0, MAX_VISIBLE_AUTHORS);
-
   return (
     <>
-      {visibleAuthors.map((author, index) => {
+      {authors.map((author, index) => {
         const website = authorWebsites[normalizeAuthorName(author)];
         return (
           <span key={`${author}-${index}`}>
@@ -334,7 +335,6 @@ function renderAuthors(authors: string[], authorWebsites: Record<string, string>
           </span>
         );
       })}
-      {authors.length > MAX_VISIBLE_AUTHORS && ', et al.'}
     </>
   );
 }
@@ -434,7 +434,12 @@ function PublicationItemView({
 function IconLink({ label, href }: { label: string; href: string }) {
   const categoryClass = styles[getLinkCategoryClass(label)];
   return (
-    <a href={href} className={`${styles.iconLinkWrapper} ${categoryClass}`}>
+    <a
+      href={href}
+      className={`${styles.iconLinkWrapper} ${categoryClass}`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <Icon label={label} />
       <span className={styles.linkLabel}>{label}</span>
     </a>

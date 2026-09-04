@@ -276,6 +276,12 @@
     ],
     "alumni_graduate": [
       {
+        "name": "Sankarshana Venugopal",
+        "degree": "Yonsei MS, 2026",
+        "current": "TBD",
+        "website": null
+      },
+      {
         "name": "Taewoong Kim",
         "degree": "Yonsei MS, 2025",
         "current": "Research Engineer @ Samsung Research",
@@ -291,166 +297,209 @@
         "name": "Yura Choi",
         "degree": "Yonsei MS, 2025",
         "current": "Intern @ Huawei London → PhD Student @ Imperial College London, UK",
-        "website": "https://yuuraa.github.io"
+        "website": "https://yuuraa.github.io/"
       },
       {
         "name": "Seokjun Moon",
         "degree": "Yonsei MS, 2025",
-        "current": "Engineer @ Hyundai Mobis"
+        "current": "Engineer @ Hyundai Mobis",
+        "website": null
       },
       {
         "name": "Minhyuk Seo",
         "degree": "Yonsei MS, 2024",
-        "current": "Researcher @ SNUMPR & Visiting Researcher @ KU Leuven, Belgium → PhD Student @ UC Berkeley"
+        "current": "Researcher @ SNUMPR & Visiting Researcher @ KU Leuven, Belgium → PhD Student @ UC Berkeley",
+        "website": "https://dbd05088.github.io/"
       },
       {
         "name": "Cheolhong Min",
         "degree": "Yonsei MS, 2024",
-        "current": "PhD Student @ SNU CSE GS"
+        "current": "PhD Student @ SNU CSE GS",
+        "website": null
       },
       {
         "name": "Jimin Sohn",
         "degree": "GIST MS, 2024. Co-advised by Jeany Son",
-        "current": "NAVER  LG Innotek"
+        "current": "NAVER  LG Innotek",
+        "website": null
       },
       {
         "name": "Hyunseo Koh",
         "degree": "GIST MS, 2023",
-        "current": "In military service"
+        "current": "In military service",
+        "website": null
       },
       {
         "name": "Jihun Kim",
         "degree": "GIST MS, 2023",
-        "current": "Minds and company (Mil. Oblig.)"
+        "current": "Minds and company (Mil. Oblig.)",
+        "website": null
       },
       {
         "name": "Dahyun Kim",
         "degree": "GIST MS, 2022",
-        "current": "Upstage (Mil. Oblig.)  Twelve Labs."
+        "current": "Upstage (Mil. Oblig.)  Twelve Labs.",
+        "website": null
       },
       {
         "name": "YeongWoo Nam",
         "degree": "GIST MS, 2022",
-        "current": "Saige Research (Mil. Oblig.)"
+        "current": "Saige Research (Mil. Oblig.)",
+        "website": null
       },
       {
         "name": "Taeil Oh",
         "degree": "GIST MS, 2022",
-        "current": "Alsemy"
+        "current": "Alsemy",
+        "website": null
       },
       {
         "name": "Mohammad Mostafavi",
         "degree": "GIST Ph.D., 2021, Co-advised by Prof. Kuk-Jin Yoon (KAIST)",
-        "current": "Research Scientist @ Lunit → SNUMPR Post-Doc"
+        "current": "Research Scientist @ Lunit → SNUMPR Post-Doc",
+        "website": null
       },
       {
         "name": "Dongmin Kang",
         "degree": "GIST MS, 2021",
-        "current": "Researcher @ GIST AI Institute (Mil. Oblig.) → SI Analytics (Mil. Oblig.)"
+        "current": "Researcher @ GIST AI Institute (Mil. Oblig.) → SI Analytics (Mil. Oblig.)",
+        "website": null
       },
       {
         "name": "Jinwoo Nam",
         "degree": "GIST MS, 2021",
-        "current": "Knowre Inc. (Mil. Oblig.)"
+        "current": "Knowre Inc. (Mil. Oblig.)",
+        "website": null
       },
       {
         "name": "Yeonsik Jo",
         "degree": "GIST MS, 2021",
-        "current": "Research Engineer @ LG AI Research"
+        "current": "Research Engineer @ LG AI Research",
+        "website": null
       }
     ],
     "alumni_undergrad": [
       {
-        "name": "Sungkyung Kim",
+        "name": "Hyunjun Kim",
         "degree": "SNU BS, 2026",
-        "current": "MS student @ Georgia Inst. of Tech"
+        "current": "Grad student @ SNUMPR",
+        "website": null
       },
       {
-        "name": "Minjae Lee (B)",
+        "name": "Chaewon Yeo",
         "degree": "SNU BS, 2026",
-        "current": "MS student @ Georgia Inst. of Tech"
+        "current": "Grad student @ SNUMPR",
+        "website": null
+      },
+      {
+        "name": "Sungkyung Kim",
+        "degree": "SNU BS, 2026",
+        "current": "MS student @ Georgia Inst. of Tech",
+        "website": null
+      },
+      {
+        "name": "Minjae Lee",
+        "degree": "SNU BS, 2026",
+        "current": "MS student @ Georgia Inst. of Tech",
+        "website": null
       },
       {
         "name": "Sanghyun Hahn",
         "degree": "SNU BS, 2026",
-        "current": "PhD student @ Cornell University"
+        "current": "PhD student @ Cornell University",
+        "website": null
       },
       {
         "name": "Chaeeun Lee",
         "degree": "SKKU BS, 2025",
-        "current": "SNU GS AI"
+        "current": "SNU GS AI",
+        "website": null
       },
       {
         "name": "Jaehong Min",
         "degree": "SNU BS, 2025",
-        "current": "TBD"
+        "current": "TBD",
+        "website": null
       },
       {
         "name": "Yu Yeong Kim",
         "degree": "GIST BS, 2023",
-        "current": "KAIST GS AI"
+        "current": "KAIST GS AI",
+        "website": null
       },
       {
         "name": "Daneul Kim",
         "degree": "GIST BS, 2023",
-        "current": "SNU GS AI"
+        "current": "SNU GS AI",
+        "website": null
       },
       {
         "name": "Sunoh Lee",
         "degree": "GIST BS, 2022",
-        "current": "Researcher @ ADD (Mil. Oblig.)"
+        "current": "Researcher @ ADD (Mil. Oblig.)",
+        "website": null
       },
       {
         "name": "Daeun Kyung",
         "degree": "GIST BS, 2021",
-        "current": "Grad. student @ KAIST GS AI"
+        "current": "Grad. student @ KAIST GS AI",
+        "website": null
       },
       {
         "name": "Jaeyoung Ahn",
         "degree": "GIST BS, 2021",
-        "current": "Deeping Source Inc."
+        "current": "Deeping Source Inc.",
+        "website": null
       },
       {
         "name": "Dahyun Kim",
         "degree": "GIST BS, 2020",
-        "current": "Join our lab"
+        "current": "Join our lab",
+        "website": null
       },
       {
         "name": "Donggun Lee",
         "degree": "GIST BS, 2020",
-        "current": "Grad. student @ POSTECH Graphics Lab."
+        "current": "Grad. student @ POSTECH Graphics Lab.",
+        "website": null
       },
       {
         "name": "Jihwan Bae",
         "degree": "GIST BS, 2020",
-        "current": "Researcher @ ADD (Mil. Oblig.)"
+        "current": "Researcher @ ADD (Mil. Oblig.)",
+        "website": null
       }
     ],
     "alumni_intl_undergrad": [
       {
         "name": "Pratham Sahu",
         "degree": "IITK BS, 2025?",
-        "current": "TBD"
+        "current": "TBD",
+        "website": null
       },
       {
         "name": "Divyam Goel",
         "degree": "IITR BS, 2023",
-        "current": "CMU RI MS"
+        "current": "CMU RI MS",
+        "website": null
       },
       {
         "name": "Suvaansh Bhambri",
         "degree": "IITR BS, 2022",
-        "current": "Adobe India"
+        "current": "Adobe India",
+        "website": null
       },
       {
         "name": "Ashish Sinha",
         "degree": "IITR BS, 2021",
-        "current": "Grad. Student @ Simon Fraser University"
+        "current": "Grad. Student @ Simon Fraser University",
+        "website": null
       },
       {
         "name": "Kunal Pratap Singh",
         "degree": "IITR BS, 2021",
-        "current": "Predoctoral Young Investigator @ AI2 → Ph.D. Student @ EPFL"
+        "current": "Predoctoral Young Investigator @ AI2 → Ph.D. Student @ EPFL",
+        "website": null
       }
     ]    
   }

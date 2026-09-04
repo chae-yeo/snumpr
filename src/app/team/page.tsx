@@ -20,7 +20,7 @@ interface Alumnus {
   name: string;
   degree: string;
   current: string;
-  website?: string;
+  website: string | null;
 }
 
 const sections: { key: keyof typeof peopleData.members; title: string }[] = [
