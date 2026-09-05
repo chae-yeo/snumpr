@@ -15,7 +15,7 @@ export default function HighlightsPage() {
           <Link href="/" className={styles.backLink}>
             &lt; Home
           </Link>
-          <h2 className={styles.sectionTitle}>Highlights</h2>
+          <h2 className={styles.sectionTitle}>Recent News</h2>
           <div className={styles.highlightsGrid}>
             {highlights.map((item, idx) => (
               <article key={item.id} className={styles.highlightCard}>

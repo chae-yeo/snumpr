@@ -1201,7 +1201,7 @@
       "Language"
     ],
     "recognition": [
-      "Award winning"
+      "Award winning","Highly cited"
     ]
   },
   {
@@ -1564,7 +1564,7 @@
     "modality": [
       "Vision"
     ],
-    "recognition": []
+    "recognition": ["Highly cited"]
   },
   {
     "title": "Stereo Depth from Events Cameras: Concentrate and Focus on the Future",
@@ -1597,7 +1597,7 @@
     "modality": [
       "Vision"
     ],
-    "recognition": []
+    "recognition": ["Highly cited"]
   },
   {
     "title": "Attentive Fine-Grained Structured Sparsity for Image Restoration",
@@ -1691,7 +1691,7 @@
     "modality": [
       "Vision"
     ],
-    "recognition": []
+    "recognition": ["Highly cited"]
   },
   {
     "title": "Iconary: A Pictionary-based Game for Testing Multimodal Communication with Drawings and Text",
@@ -1764,7 +1764,7 @@
       "Language"
     ],
     "recognition": [
-      "Oral/Spotlight"
+      "Oral/Spotlight","Highly cited"
     ]
   },
   {
@@ -1809,7 +1809,7 @@
       "Language"
     ],
     "recognition": [
-      "Award winning"
+      "Award winning","Highly cited"
     ]
   },
   {
@@ -1838,7 +1838,7 @@
     "modality": [
       "Vision"
     ],
-    "recognition": []
+    "recognition": ["Highly cited"]
   },
   {
     "title": "Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds",
@@ -1902,7 +1902,7 @@
     "modality": [
       "Vision"
     ],
-    "recognition": []
+    "recognition": ["Highly cited"]
   },
   {
     "title": "Rainbow Memory: Continual Learning with a Memory of Diverse Samples",
@@ -1936,7 +1936,7 @@
     "modality": [
       "Vision"
     ],
-    "recognition": []
+    "recognition": ["Highly cited"]
   },
   {
     "title": "BNAS v2: Learning Architectures for Binary Networks with Empirical Improvements",
@@ -1988,7 +1988,7 @@
     "modality": [
       "Vision"
     ],
-    "recognition": []
+    "recognition": ["Highly cited"]
   },
   {
     "title": "Learning Architectures for Binary Networks",
