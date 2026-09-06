@@ -1,5 +1,28 @@
 [
   {
+    "title": "RTSGameBench: An RTS Benchmark for Strategic Reasoning by Vision-Language Models",
+    "authors": [
+      "San Kim", "Daechul Ahn", "Reokyoung Kim", "Hyeonbeom Choi", "Seungyeon Jwa", "Jonghyun Choi"
+    ],
+    "journalsInfo": "arXiv 2606",
+    "thumbnailUrl": "/images/publications/arxiv2606-rtsgamebench.jpg",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2606.18950"
+      }
+    ],
+    "researchTopic": [
+      "Embodied & Multimodal AI"
+    ],
+    "year": "Preprint",
+    "modality": [
+      "Vision",
+      "Language"
+    ],
+    "recognition": []
+  },
+  {
     "title": "ParaPairAudioBench: Paralinguistic Pairwise Audio Benchmark for LALM-as-a-Judge",
     "authors": [
       "Jisu Jeon",
