@@ -6,8 +6,6 @@ Next.js(React) 기반으로 만들어져 있고, 대부분의 콘텐츠는 `/pub
 > **이 문서를 읽는 분께**
 > React/Next.js는 처음이어도 문제없이 운영하실 수 있도록 작성했습니다. 코드 수정이 필요한 작업은 대부분 [Claude Code](https://claude.com/claude-code) (Opus 모델 권장)에 한 줄짜리 프롬프트만 던지면 됩니다. 본 README의 §4에 예시 프롬프트가 정리되어 있습니다.
 
----
-
 ## 0. 시작하기 전에
 
 ### 로컬에서 띄워보기
@@ -24,11 +22,59 @@ npm run dev
 
 ### 배포
 
-`main` 브랜치에 push하면 Vercel이 자동으로 https://snumpr.vercel.app 에 배포합니다 (1~2분 소요).
+실제 서울대 서버 반영은 **로컬에서 수정 → GitHub에 push → 서버에서 pull·build·재시작** 순서로 진행합니다.
 
-- GitHub의 commit 메시지 옆에 **초록 체크** = 배포 성공
-- **빨간 X** = 빌드 실패 (코드에 에러가 있거나 JSON 문법이 깨졌거나 등)
-- 배포가 실패하면 우선 `npm run dev`를 로컬에서 돌려보고, 터미널에 뜨는 에러 메시지를 그대로 Claude Code에 붙여넣어 "이 에러 고쳐줘"라고 하시면 보통 해결됩니다.
+#### 1) 로컬에서 수정 확인 후 GitHub에 올리기
+
+`npm run dev`로 화면이 정상인지 확인한 뒤, 프로젝트 폴더에서 실행합니다.
+
+```bash
+git status
+git add .
+git commit -m "업데이트 내용 요약"
+git push
+```
+
+여기까지 하면 GitHub의 코드는 최신이지만, **서버에서 실행 중인 홈페이지는 아직 바뀌지 않습니다.**
+
+#### 2) 서울대 서버에 반영하기
+
+학내망 또는 SNU VPN에서 서버에 접속한 뒤 아래를 순서대로 실행합니다.
+
+```bash
+ssh lab_page
+cd ~/snumpr
+git pull --ff-only
+npm run build
+sudo systemctl restart snumpr
+```
+
+- `git pull --ff-only`: GitHub의 새 코드를 서버에 안전하게 받습니다. 서버 파일과 충돌할 상황이면 멋대로 합치지 않고 중단합니다.
+- `npm run build`: 새 코드로 서비스용 홈페이지를 만듭니다.
+- `sudo systemctl restart snumpr`: 실행 중인 홈페이지를 새 결과물로 교체합니다.
+
+따라서 서버에서는 **`git pull`만 하면 반영이 끝난 것이 아닙니다.** `build`와 `restart`까지 해야 합니다.
+
+`package.json` 또는 `package-lock.json`이 바뀐 업데이트라면, `npm run build` 전에 `npm ci`도 실행합니다.
+
+```bash
+cd ~/snumpr
+git pull --ff-only
+npm ci
+npm run build
+sudo systemctl restart snumpr
+```
+
+#### 3) 반영 확인
+
+서버에서 아래 결과가 각각 `active`, `HTTP/1.1 200 OK`인지 확인합니다.
+
+```bash
+sudo systemctl is-active snumpr
+curl -I http://127.0.0.1:3000
+```
+
+학내에서는 `http://147.47.106.32`로 확인합니다. 도메인 연결과 외부 443 포트 개방이 완료되면 최종 주소는 `https://mpr.snu.ac.kr`입니다.
 
 ---
 
