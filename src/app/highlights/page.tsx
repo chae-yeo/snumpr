@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../page.module.css';
-import highlightsData from '../../../public/data/highlights.json';
+import newsData from '../../../public/data/news.json';
 import { HighlightItem } from '../../types';
 import FadeIn from '../../components/FadeIn';
 
-const highlights: HighlightItem[] = highlightsData;
+const highlights: HighlightItem[] = newsData;
 
 export default function HighlightsPage() {
   return (
@@ -15,7 +15,7 @@ export default function HighlightsPage() {
           <Link href="/" className={styles.backLink}>
             &lt; Home
           </Link>
-          <h2 className={styles.sectionTitle}>Recent News</h2>
+          <h2 className={styles.sectionTitle}>News</h2>
           <div className={styles.highlightsGrid}>
             {highlights.map((item, idx) => (
               <article key={item.id} className={styles.highlightCard}>

@@ -4,11 +4,11 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './page.module.css';
-import highlightsData from '../../public/data/highlights.json';
+import newsData from '../../public/data/news.json';
 import { HighlightItem } from '../types';
 import FadeIn from '../components/FadeIn';
 
-const highlights: HighlightItem[] = highlightsData;
+const highlights: HighlightItem[] = newsData;
 const HIGHLIGHTS_PREVIEW_COUNT = 4;
 
 function NewsModal({ item, onClose }: { item: HighlightItem; onClose: () => void }) {

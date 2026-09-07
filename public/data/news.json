@@ -1,18 +1,18 @@
 [
   {
-    "id": "1",
+    "id": "h1",
     "title": "Three Papers Accepted at ECCV 2026",
     "details": "Three papers from our lab will be presented at ECCV 2026 in Malmö, Sweden.",
-    "imageUrl": "/images/news/2.png"
+    "imageUrl": "/images/news/eccv26.png"
   },
   {
-    "id": "2",
+    "id": "h2",
     "title": "Best Paper Award at AAAI 2026 Workshop of PerFM",
     "details": "Minhyuk Seo & Taeheon Kim received the Best Paper Award at AAAI 2026 Workshop of PerFM!",
     "imageUrl": "/images/news/co-lora.jpg"
   },
   {
-    "id": "3",
+    "id": "h3",
     "title": "Best Paper Award at CIKM 2025 workshop of HAI",
     "details": "Jonghyun Park received the Best Paper Award at CIKM 2025 workshop of HAI!",
     "imageUrl": "/images/news/moras.jpg"

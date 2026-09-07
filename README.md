@@ -86,7 +86,6 @@ snumpr/
 │   ├── data/                   ← 모든 콘텐츠 JSON (팀, 논문, 갤러리 등)
 │   │   ├── people.json
 │   │   ├── publications.json
-│   │   ├── highlights.json
 │   │   ├── news.json
 │   │   ├── gallery.json
 │   │   └── links.json          ← GitHub / HuggingFace / SNS / Google Form 링크
@@ -225,9 +224,7 @@ snumpr/
 4. `images` 배열에 위에서 저장한 파일들의 경로를 `/images/gallery/<파일명>` 형식으로 적습니다.
 5. 저장한 뒤 `npm run dev`로 띄워 본인이 추가한 항목이 잘 나오는지 확인 → 이상 없으면 commit & push.
 
-### 2-4. News / Highlights — `public/data/news.json`, `public/data/highlights.json`
-
-둘 다 같은 구조입니다.
+### 2-4. News — `public/data/news.json`
 
 ```json
 {
@@ -238,9 +235,8 @@ snumpr/
 }
 ```
 
-- **News**: Home 상단 캐러셀(자동 슬라이드).
-- **Highlights**: Home에 4개 미리보기로 보이고, `/highlights` 페이지에서 전체가 보입니다.
-- 이미지는 각각 `public/images/news/`, `public/images/highlights/` 아래에 저장.
+- **News**: Home에 미리보기로 보이고, `/highlights` 페이지에서 전체가 보입니다.
+- 이미지는 `public/images/highlights/` 아래에 저장합니다.
 
 ### 2-5. 외부 링크 / SNS — `public/data/links.json`
 
