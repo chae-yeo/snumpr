@@ -2,7 +2,12 @@
   {
     "title": "RTSGameBench: An RTS Benchmark for Strategic Reasoning by Vision-Language Models",
     "authors": [
-      "San Kim", "Daechul Ahn", "Reokyoung Kim", "Hyeonbeom Choi", "Seungyeon Jwa", "Jonghyun Choi"
+      "San Kim",
+      "Daechul Ahn",
+      "Reokyoung Kim",
+      "Hyeonbeom Choi",
+      "Seungyeon Jwa",
+      "Jonghyun Choi"
     ],
     "journalsInfo": "arXiv 2606",
     "thumbnailUrl": "/images/publications/arxiv2606-rtsgamebench.jpg",
@@ -13,7 +18,7 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI"
+      "Foundation Models, Multimodality & Agents"
     ],
     "year": "Preprint",
     "modality": [
@@ -48,8 +53,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models & Alignment",
-      "Embodied & Multimodal AI"
+      "Foundation Models, Multimodality & Agents"
     ],
     "year": "2026",
     "modality": [
@@ -83,8 +87,8 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI",
-      "Efficient & Adaptive AI"
+      "Embodied AI & Robotics",
+      "Efficient & Adaptive Learning"
     ],
     "year": "2026",
     "modality": [
@@ -120,7 +124,7 @@
       }
     ],
     "researchTopic": [
-      "Generative & Computational Imaging"
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2026",
     "modality": [
@@ -157,8 +161,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models & Alignment",
-      "Embodied & Multimodal AI"
+      "Foundation Models, Multimodality & Agents"
     ],
     "year": "2026",
     "modality": [
@@ -207,8 +210,8 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning",
-      "Embodied & Multimodal AI"
+      "Continual & Lifelong Learning",
+      "Foundation Models, Multimodality & Agents"
     ],
     "year": "2026",
     "modality": [
@@ -245,8 +248,8 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI",
-      "Efficient & Adaptive AI"
+      "Embodied AI & Robotics",
+      "Efficient & Adaptive Learning"
     ],
     "year": "2026",
     "modality": [
@@ -275,8 +278,8 @@
       }
     ],
     "researchTopic": [
-      "Efficient & Adaptive AI",
-      "Visual Perception & Recognition"
+      "Efficient & Adaptive Learning",
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "Preprint",
     "modality": [
@@ -302,8 +305,8 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning",
-      "Embodied & Multimodal AI"
+      "Continual & Lifelong Learning",
+      "Foundation Models, Multimodality & Agents"
     ],
     "year": "2026",
     "modality": [
@@ -323,8 +326,8 @@
     "thumbnailUrl": "/images/publications/cvprf26-falcon.jpg",
     "links": [],
     "researchTopic": [
-      "Visual Perception & Recognition",
-      "Efficient & Adaptive AI"
+      "Visual Understanding & Computational Imaging",
+      "Efficient & Adaptive Learning"
     ],
     "year": "2026",
     "modality": [
@@ -348,7 +351,7 @@
       }
     ],
     "researchTopic": [
-      "Generative & Computational Imaging"
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2026",
     "modality": [
@@ -379,7 +382,7 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI"
+      "Embodied AI & Robotics"
     ],
     "year": "2026",
     "modality": [
@@ -407,7 +410,7 @@
       }
     ],
     "researchTopic": [
-      "Generative & Computational Imaging"
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2026",
     "modality": [
@@ -439,8 +442,8 @@
       }
     ],
     "researchTopic": [
-      "Efficient & Adaptive AI",
-      "Embodied & Multimodal AI"
+      "Efficient & Adaptive Learning",
+      "Foundation Models, Multimodality & Agents"
     ],
     "year": "2026",
     "modality": [
@@ -478,8 +481,8 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models & Alignment",
-      "Efficient & Adaptive AI"
+      "Foundation Models, Multimodality & Agents",
+      "Efficient & Adaptive Learning"
     ],
     "year": "2026",
     "modality": [
@@ -520,7 +523,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Perception & Recognition"
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2026",
     "modality": [
@@ -546,7 +549,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models & Alignment"
+      "Foundation Models, Multimodality & Agents"
     ],
     "year": "2026",
     "modality": [
@@ -574,7 +577,7 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning"
+      "Continual & Lifelong Learning"
     ],
     "year": "2025",
     "modality": [
@@ -612,7 +615,7 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI"
+      "Embodied AI & Robotics"
     ],
     "year": "2025",
     "modality": [
@@ -643,7 +646,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Perception & Recognition"
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2025",
     "modality": [
@@ -679,7 +682,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models & Alignment"
+      "Foundation Models, Multimodality & Agents"
     ],
     "year": "2025",
     "modality": [
@@ -714,7 +717,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models & Alignment"
+      "Foundation Models, Multimodality & Agents"
     ],
     "year": "2025",
     "modality": [
@@ -739,7 +742,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models & Alignment"
+      "Foundation Models, Multimodality & Agents"
     ],
     "year": "2025",
     "modality": [
@@ -767,8 +770,8 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning",
-      "Efficient & Adaptive AI"
+      "Continual & Lifelong Learning",
+      "Efficient & Adaptive Learning"
     ],
     "year": "2025",
     "modality": [
@@ -802,7 +805,7 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI"
+      "Embodied AI & Robotics"
     ],
     "year": "2025",
     "modality": [
@@ -840,9 +843,8 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models & Alignment",
-      "Embodied & Multimodal AI",
-      "Visual Perception & Recognition"
+      "Foundation Models, Multimodality & Agents",
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2025",
     "modality": [
@@ -872,8 +874,8 @@
       }
     ],
     "researchTopic": [
-      "Efficient & Adaptive AI",
-      "Visual Perception & Recognition"
+      "Efficient & Adaptive Learning",
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2025",
     "modality": [
@@ -902,7 +904,7 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI"
+      "Embodied AI & Robotics"
     ],
     "year": "2024",
     "modality": [
@@ -946,7 +948,7 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI"
+      "Embodied AI & Robotics"
     ],
     "year": "2024",
     "modality": [
@@ -977,8 +979,8 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI",
-      "Visual Perception & Recognition"
+      "Foundation Models, Multimodality & Agents",
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2024",
     "modality": [
@@ -1017,9 +1019,8 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models & Alignment",
-      "Embodied & Multimodal AI",
-      "Visual Perception & Recognition"
+      "Foundation Models, Multimodality & Agents",
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2024",
     "modality": [
@@ -1051,8 +1052,8 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models & Alignment",
-      "Efficient & Adaptive AI"
+      "Foundation Models, Multimodality & Agents",
+      "Efficient & Adaptive Learning"
     ],
     "year": "2024",
     "modality": [
@@ -1087,8 +1088,8 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning",
-      "Visual Perception & Recognition"
+      "Continual & Lifelong Learning",
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2024",
     "modality": [
@@ -1116,8 +1117,8 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning",
-      "Embodied & Multimodal AI"
+      "Continual & Lifelong Learning",
+      "Embodied AI & Robotics"
     ],
     "year": "2024",
     "modality": [
@@ -1146,8 +1147,8 @@
       }
     ],
     "researchTopic": [
-      "AI for Science & Systems",
-      "Visual Perception & Recognition"
+      "AI for Science & Intelligent Systems",
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2024",
     "modality": [
@@ -1177,7 +1178,7 @@
       }
     ],
     "researchTopic": [
-      "AI for Science & Systems"
+      "AI for Science & Intelligent Systems"
     ],
     "year": "2024",
     "modality": [
@@ -1215,8 +1216,8 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI",
-      "Continual Learning"
+      "Embodied AI & Robotics",
+      "Continual & Lifelong Learning"
     ],
     "year": "2023",
     "modality": [
@@ -1224,7 +1225,8 @@
       "Language"
     ],
     "recognition": [
-      "Award winning","Highly cited"
+      "Award winning",
+      "Highly cited"
     ]
   },
   {
@@ -1259,8 +1261,8 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI",
-      "Generative & Computational Imaging"
+      "Foundation Models, Multimodality & Agents",
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2023",
     "modality": [
@@ -1298,7 +1300,7 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning"
+      "Continual & Lifelong Learning"
     ],
     "year": "2023",
     "modality": [
@@ -1329,8 +1331,8 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning",
-      "Efficient & Adaptive AI"
+      "Continual & Lifelong Learning",
+      "Efficient & Adaptive Learning"
     ],
     "year": "2023",
     "modality": [
@@ -1353,7 +1355,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Perception & Recognition"
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2023",
     "modality": [
@@ -1386,7 +1388,7 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning"
+      "Continual & Lifelong Learning"
     ],
     "year": "2023",
     "modality": [
@@ -1414,7 +1416,7 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI"
+      "Embodied AI & Robotics"
     ],
     "year": "2023",
     "modality": [
@@ -1446,7 +1448,7 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI"
+      "Embodied AI & Robotics"
     ],
     "year": "2022",
     "modality": [
@@ -1483,7 +1485,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Perception & Recognition"
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2022",
     "modality": [
@@ -1514,7 +1516,7 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning"
+      "Continual & Lifelong Learning"
     ],
     "year": "2022",
     "modality": [
@@ -1545,8 +1547,8 @@
       }
     ],
     "researchTopic": [
-      "Efficient & Adaptive AI",
-      "Visual Perception & Recognition"
+      "Efficient & Adaptive Learning",
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2022",
     "modality": [
@@ -1581,13 +1583,15 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning"
+      "Continual & Lifelong Learning"
     ],
     "year": "2022",
     "modality": [
       "Vision"
     ],
-    "recognition": ["Highly cited"]
+    "recognition": [
+      "Highly cited"
+    ]
   },
   {
     "title": "Stereo Depth from Events Cameras: Concentrate and Focus on the Future",
@@ -1614,13 +1618,15 @@
       }
     ],
     "researchTopic": [
-      "Visual Perception & Recognition"
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2022",
     "modality": [
       "Vision"
     ],
-    "recognition": ["Highly cited"]
+    "recognition": [
+      "Highly cited"
+    ]
   },
   {
     "title": "Attentive Fine-Grained Structured Sparsity for Image Restoration",
@@ -1649,8 +1655,8 @@
       }
     ],
     "researchTopic": [
-      "Generative & Computational Imaging",
-      "Efficient & Adaptive AI"
+      "Visual Understanding & Computational Imaging",
+      "Efficient & Adaptive Learning"
     ],
     "year": "2022",
     "modality": [
@@ -1682,7 +1688,7 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI"
+      "Embodied AI & Robotics"
     ],
     "year": "2022",
     "modality": [
@@ -1708,13 +1714,15 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning"
+      "Continual & Lifelong Learning"
     ],
     "year": "2022",
     "modality": [
       "Vision"
     ],
-    "recognition": ["Highly cited"]
+    "recognition": [
+      "Highly cited"
+    ]
   },
   {
     "title": "Iconary: A Pictionary-based Game for Testing Multimodal Communication with Drawings and Text",
@@ -1745,7 +1753,7 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI"
+      "Foundation Models, Multimodality & Agents"
     ],
     "year": "2021",
     "modality": [
@@ -1778,8 +1786,8 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI",
-      "Visual Perception & Recognition"
+      "Foundation Models, Multimodality & Agents",
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2021",
     "modality": [
@@ -1787,7 +1795,8 @@
       "Language"
     ],
     "recognition": [
-      "Oral/Spotlight","Highly cited"
+      "Oral/Spotlight",
+      "Highly cited"
     ]
   },
   {
@@ -1824,7 +1833,7 @@
       }
     ],
     "researchTopic": [
-      "Embodied & Multimodal AI"
+      "Embodied AI & Robotics"
     ],
     "year": "2021",
     "modality": [
@@ -1832,7 +1841,8 @@
       "Language"
     ],
     "recognition": [
-      "Award winning","Highly cited"
+      "Award winning",
+      "Highly cited"
     ]
   },
   {
@@ -1855,13 +1865,15 @@
       }
     ],
     "researchTopic": [
-      "Generative & Computational Imaging"
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2021",
     "modality": [
       "Vision"
     ],
-    "recognition": ["Highly cited"]
+    "recognition": [
+      "Highly cited"
+    ]
   },
   {
     "title": "Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds",
@@ -1879,7 +1891,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Perception & Recognition"
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2021",
     "modality": [
@@ -1918,14 +1930,15 @@
       }
     ],
     "researchTopic": [
-      "Visual Perception & Recognition",
-      "Generative & Computational Imaging"
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2021",
     "modality": [
       "Vision"
     ],
-    "recognition": ["Highly cited"]
+    "recognition": [
+      "Highly cited"
+    ]
   },
   {
     "title": "Rainbow Memory: Continual Learning with a Memory of Diverse Samples",
@@ -1953,13 +1966,15 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning"
+      "Continual & Lifelong Learning"
     ],
     "year": "2021",
     "modality": [
       "Vision"
     ],
-    "recognition": ["Highly cited"]
+    "recognition": [
+      "Highly cited"
+    ]
   },
   {
     "title": "BNAS v2: Learning Architectures for Binary Networks with Empirical Improvements",
@@ -1977,7 +1992,7 @@
       }
     ],
     "researchTopic": [
-      "Efficient & Adaptive AI"
+      "Efficient & Adaptive Learning"
     ],
     "year": "2021",
     "modality": [
@@ -2005,13 +2020,15 @@
       }
     ],
     "researchTopic": [
-      "AI for Science & Systems"
+      "AI for Science & Intelligent Systems"
     ],
     "year": "2021",
     "modality": [
       "Vision"
     ],
-    "recognition": ["Highly cited"]
+    "recognition": [
+      "Highly cited"
+    ]
   },
   {
     "title": "Learning Architectures for Binary Networks",
@@ -2037,7 +2054,7 @@
       }
     ],
     "researchTopic": [
-      "Efficient & Adaptive AI"
+      "Efficient & Adaptive Learning"
     ],
     "year": "2020",
     "modality": [
@@ -2075,8 +2092,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Perception & Recognition",
-      "Generative & Computational Imaging"
+      "Visual Understanding & Computational Imaging"
     ],
     "year": "2020",
     "modality": [
@@ -2103,7 +2119,7 @@
       }
     ],
     "researchTopic": [
-      "Continual Learning"
+      "Continual & Lifelong Learning"
     ],
     "year": "2020",
     "modality": [
