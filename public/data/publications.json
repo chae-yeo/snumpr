@@ -18,7 +18,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents"
+      "Foundation Models & Agents"
     ],
     "year": "Preprint",
     "modality": [
@@ -53,7 +53,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents"
+      "Foundation Models & Agents"
     ],
     "year": "2026",
     "modality": [
@@ -124,7 +124,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2026",
     "modality": [
@@ -161,7 +161,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents"
+      "Foundation Models & Agents"
     ],
     "year": "2026",
     "modality": [
@@ -211,7 +211,7 @@
     ],
     "researchTopic": [
       "Continual & Lifelong Learning",
-      "Foundation Models, Multimodality & Agents"
+      "Foundation Models & Agents"
     ],
     "year": "2026",
     "modality": [
@@ -279,7 +279,7 @@
     ],
     "researchTopic": [
       "Efficient & Adaptive Learning",
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "Preprint",
     "modality": [
@@ -306,7 +306,7 @@
     ],
     "researchTopic": [
       "Continual & Lifelong Learning",
-      "Foundation Models, Multimodality & Agents"
+      "Foundation Models & Agents"
     ],
     "year": "2026",
     "modality": [
@@ -326,7 +326,7 @@
     "thumbnailUrl": "/images/publications/cvprf26-falcon.jpg",
     "links": [],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging",
+      "Visual Understanding",
       "Efficient & Adaptive Learning"
     ],
     "year": "2026",
@@ -351,7 +351,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2026",
     "modality": [
@@ -410,7 +410,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2026",
     "modality": [
@@ -443,7 +443,7 @@
     ],
     "researchTopic": [
       "Efficient & Adaptive Learning",
-      "Foundation Models, Multimodality & Agents"
+      "Foundation Models & Agents"
     ],
     "year": "2026",
     "modality": [
@@ -481,7 +481,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents",
+      "Foundation Models & Agents",
       "Efficient & Adaptive Learning"
     ],
     "year": "2026",
@@ -523,7 +523,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2026",
     "modality": [
@@ -549,7 +549,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents"
+      "Foundation Models & Agents"
     ],
     "year": "2026",
     "modality": [
@@ -646,7 +646,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2025",
     "modality": [
@@ -682,7 +682,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents"
+      "Foundation Models & Agents"
     ],
     "year": "2025",
     "modality": [
@@ -717,7 +717,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents"
+      "Foundation Models & Agents"
     ],
     "year": "2025",
     "modality": [
@@ -742,7 +742,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents"
+      "Foundation Models & Agents"
     ],
     "year": "2025",
     "modality": [
@@ -843,8 +843,8 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents",
-      "Visual Understanding & Computational Imaging"
+      "Foundation Models & Agents",
+      "Visual Understanding"
     ],
     "year": "2025",
     "modality": [
@@ -875,7 +875,7 @@
     ],
     "researchTopic": [
       "Efficient & Adaptive Learning",
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2025",
     "modality": [
@@ -979,8 +979,8 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents",
-      "Visual Understanding & Computational Imaging"
+      "Foundation Models & Agents",
+      "Visual Understanding"
     ],
     "year": "2024",
     "modality": [
@@ -1019,8 +1019,8 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents",
-      "Visual Understanding & Computational Imaging"
+      "Foundation Models & Agents",
+      "Visual Understanding"
     ],
     "year": "2024",
     "modality": [
@@ -1052,7 +1052,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents",
+      "Foundation Models & Agents",
       "Efficient & Adaptive Learning"
     ],
     "year": "2024",
@@ -1089,7 +1089,7 @@
     ],
     "researchTopic": [
       "Continual & Lifelong Learning",
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2024",
     "modality": [
@@ -1147,8 +1147,8 @@
       }
     ],
     "researchTopic": [
-      "AI for Science & Intelligent Systems",
-      "Visual Understanding & Computational Imaging"
+      "AI for Science & Systems",
+      "Visual Understanding"
     ],
     "year": "2024",
     "modality": [
@@ -1178,7 +1178,7 @@
       }
     ],
     "researchTopic": [
-      "AI for Science & Intelligent Systems"
+      "AI for Science & Systems"
     ],
     "year": "2024",
     "modality": [
@@ -1261,8 +1261,8 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents",
-      "Visual Understanding & Computational Imaging"
+      "Foundation Models & Agents",
+      "Visual Understanding"
     ],
     "year": "2023",
     "modality": [
@@ -1355,7 +1355,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2023",
     "modality": [
@@ -1485,7 +1485,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2022",
     "modality": [
@@ -1548,7 +1548,7 @@
     ],
     "researchTopic": [
       "Efficient & Adaptive Learning",
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2022",
     "modality": [
@@ -1618,7 +1618,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2022",
     "modality": [
@@ -1655,7 +1655,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging",
+      "Visual Understanding",
       "Efficient & Adaptive Learning"
     ],
     "year": "2022",
@@ -1753,7 +1753,7 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents"
+      "Foundation Models & Agents"
     ],
     "year": "2021",
     "modality": [
@@ -1786,8 +1786,8 @@
       }
     ],
     "researchTopic": [
-      "Foundation Models, Multimodality & Agents",
-      "Visual Understanding & Computational Imaging"
+      "Foundation Models & Agents",
+      "Visual Understanding"
     ],
     "year": "2021",
     "modality": [
@@ -1865,7 +1865,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2021",
     "modality": [
@@ -1891,7 +1891,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2021",
     "modality": [
@@ -1930,7 +1930,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2021",
     "modality": [
@@ -2020,7 +2020,7 @@
       }
     ],
     "researchTopic": [
-      "AI for Science & Intelligent Systems"
+      "AI for Science & Systems"
     ],
     "year": "2021",
     "modality": [
@@ -2092,7 +2092,7 @@
       }
     ],
     "researchTopic": [
-      "Visual Understanding & Computational Imaging"
+      "Visual Understanding"
     ],
     "year": "2020",
     "modality": [

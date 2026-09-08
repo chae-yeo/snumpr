@@ -75,6 +75,13 @@
   font-weight: 500;
 }
 
+.date {
+  font-size: 1.3rem;
+  color: #666666;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
 .details {
   font-size: 1.4rem;
   color: var(--text-gray);
@@ -300,6 +307,13 @@
   to {
     opacity: 1;
   }
+}
+
+.newsModalDate {
+  font-size: 1.3rem;
+  color: #666666;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 
 .newsModalContent {

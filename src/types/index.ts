@@ -8,6 +8,7 @@ export interface NewsItem {
 export interface HighlightItem {
   id: string;
   title: string;
+  date: string;
   details: string;
   imageUrl: string;
 }

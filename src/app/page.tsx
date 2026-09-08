@@ -51,6 +51,7 @@ function NewsModal({ item, onClose }: { item: HighlightItem; onClose: () => void
           <h2 id="news-modal-title" className={styles.newsModalTitle}>
             {item.title}
           </h2>
+          <p className={styles.newsModalDate}>{item.date}</p>
           <p className={styles.newsModalDetails}>{item.details}</p>
         </div>
       </section>
@@ -145,6 +146,7 @@ export default function Home() {
                 </div>
                 <div className={styles.info}>
                   <h3 className={styles.title}>{item.title}</h3>
+                  <p className={styles.date}>{item.date}</p>
                   <p className={styles.details}>{item.details}</p>
                 </div>
               </article>

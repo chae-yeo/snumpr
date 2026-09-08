@@ -2,6 +2,13 @@ import Image from 'next/image';
 import Title from '@/components/Title';
 import FadeIn from '@/components/FadeIn';
 import styles from './page.module.css';
+import { FormIcon } from '@/components/Icons';
+
+
+const links = {
+  googleFormGrad: "https://forms.gle/UZG6x73bueu2szhy6", // Grad application
+  googleFormUGIntern: "https://forms.gle/rzTYgEBT1CjsLL6W8", // Grad application
+};
 
 export default function JoinUsPage() {
   return (
@@ -11,27 +18,86 @@ export default function JoinUsPage() {
       </FadeIn>
 
       <FadeIn>
+        <div className={styles.noticeBox}>
+          <h2 className={styles.noticeTitle}>Spring 2027 Applicants</h2>
+          <p className={styles.noticeText}>
+            We will have openings for Spring 2027 applicants. Detailed number of slots will be announced later. 
+          </p>
+
+          <h3 className={styles.noticeSubTitle}>Ph.D. Opportunities</h3>
+          <ul className={styles.noticeList}>
+            <li>
+              <strong>Department of Electrical and Computer Engineering</strong> — ? Slots
+            </li>
+            <li>
+              <strong>AI Graduate School</strong> (formerly, IPAI) - ? Slots
+            </li>
+          </ul>
+
+          <h3 className={styles.noticeSubTitle}>MS/Ph.D. Opportunities</h3>
+          <ul className={styles.noticeList}>
+            <li>
+              <strong>Department of Electrical and Computer Engineering</strong> — ? Slots
+            </li>
+            <li>
+              <strong>AI Graduate School</strong> (formerly, IPAI) - ? Slots
+            </li>
+          </ul>
+
+          <h3 className={styles.noticeSubTitle}>MS Opportunities</h3>
+          <ul className={styles.noticeList}>
+            <li>
+              <strong>Department of Electrical and Computer Engineering</strong> — ? Slots
+            </li>
+            <li>
+              <strong>AI Graduate School</strong> (formerly, IPAI) - ? Slots
+            </li>
+          </ul>
+        </div>
+      </FadeIn>
+
+      <FadeIn>
         <section className={styles.section}>
           <p className={styles.heroDescription}>
-            {`We are a team of researchers and engineers who are serious in machine learning and computer vision.
-Here are our answers to some of frequently asked questions regarding joining our group.`}
+            {`If you are interested in working with us, (1) please read below and fill up the Google form and (2) send me an email if you want to hear from me quickly.`}
+          </p>
+          <p>
+            <a
+              href={links.googleFormGrad}
+              className={`${styles.linkButton} ${styles.graduateBtn}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FormIcon className={styles.formIcon} />
+              Google Form: Graudate Application
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a
+              href={links.googleFormUGIntern}
+              className={`${styles.linkButton} ${styles.undergradBtn}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FormIcon className={styles.formIcon} />
+              Google Form: Undergraduate Internship Application
+            </a>
           </p>
         </section>
       </FadeIn>
 
       <FadeIn>
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Team&apos;s Interest</h2>
+          <h2 className={styles.sectionTitle}>About us</h2>
           <p className={styles.description}>
             The team&apos;s primary focus is to get you succeeded in your career path. Customizing
             to your interest, we try to help your way to reach the goal after you graduate the lab.
-            Most of our team members are for academic positions (e.g., faculty, world class
-            industry researchers) and a few are for engineering positions (e.g., world class
+            Most of our team members are for academic positions (<i>e.g.</i>, faculty, world class
+            industry researchers) and a few are for engineering positions (<i>e.g.</i>, world class
             software companies). We mostly aim for sharing our results in top venus in computer
-            vision and machine learning (e.g., CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML) and
+            vision and machine learning (<i>e.g.</i>, CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, CoRL, ICRA) and
             contribute to open source softwares to benefit other researchers including ourselves.
           </p>
-          <div className={styles.imageWrapper}>
+          {/* <div className={styles.imageWrapper}>
             <Image
               src="/images/join-us/homecoming_protected.jpg"
               alt="The first homecoming @ Gangnam, Seoul"
@@ -44,7 +110,7 @@ Here are our answers to some of frequently asked questions regarding joining our
               <span className={styles.caption}>The first homecoming @ Gangnam, Seoul</span>
               <span className={styles.date}>(May 28, 2024)</span>
             </div>
-          </div>
+          </div> */}
         </section>
       </FadeIn>
 
@@ -62,21 +128,22 @@ Here are our answers to some of frequently asked questions regarding joining our
                 on anything.
               </p>
             </div>
-            <div className={styles.infoRow}>
+
+            {/* <div className={styles.infoRow}>
               <h3 className={styles.infoTitle}>Resources & Development Environment</h3>
               <p className={styles.infoContent}>
                 {`We try our best to provide you the best development environments (standing desks, noise cancelling headphones (depending on funding situation) and etc.). Each graduate student will have a state of the art workstation equipped with one A6000 and a 39" wide curved monitor for fast prototyping. We are equipped with roughly 80 GPU's (A6000 or 3090) (roughtly 6+ GPUs per person).
 We are buying more!`}
               </p>
-            </div>
-            <div className={styles.infoRow}>
+            </div> */}
+            {/* <div className={styles.infoRow}>
               <h3 className={styles.infoTitle}>Monetary compensation</h3>
               <p className={styles.infoContent}>
                 We try our best to give you the best of monetary compensation. Usually, most of our
                 team members are paid to the legally allowed maximum graduate student salaries and
                 more for additional project workloads if you want to be involved.
               </p>
-            </div>
+            </div> */}
             <div className={styles.infoRow}>
               <h3 className={styles.infoTitle}>Collaborations</h3>
               <p className={styles.infoContent}>
@@ -137,22 +204,15 @@ We are buying more!`}
           <h2 className={styles.sectionTitle}>Research Topics</h2>
           <div className={styles.researchGrid}>
             <article className={styles.card}>
-              <h3 className={styles.cardTitle}>Few-shot, zero-shot, continual (un-)learning</h3>
+              <h3 className={styles.cardTitle}>Machine Learning, Continual(Un-) Learning, Knowledge Transfer</h3>
               <p className={styles.cardDesc}>
-                We try to mitigate the annotation cost for visual understanding and machine
-                learning problems.
+                We try to transfer knowledge in models to expedite learning and reasoning. 
+                We focus on model adaptability, efficiently updating.
+                It also connects to continuous evolution of models, reason in dynamic/real-world environments with minimal computational overhead.
               </p>
             </article>
             <article className={styles.card}>
-              <h3 className={styles.cardTitle}>Embodied AI</h3>
-              <p className={styles.cardDesc}>
-                Combining few-shot, continual video understanding with language understanding, we
-                try to architect new models to build a robotics agent to help household tasks
-                (e.g., bring a cup of water from the kitchen).
-              </p>
-            </article>
-            <article className={styles.card}>
-              <h3 className={styles.cardTitle}>Multi-modal AI</h3>
+              <h3 className={styles.cardTitle}>Multi-modal / Agentic AI</h3>
               <p className={styles.cardDesc}>
                 We try to build models to understand languages alongside with visual signals. Other
                 than the vision-and-language understanding, we are also interested in various
@@ -160,35 +220,45 @@ We are buying more!`}
               </p>
             </article>
             <article className={styles.card}>
-              <h3 className={styles.cardTitle}>Video understanding</h3>
+              <h3 className={styles.cardTitle}>Video and Language</h3>
               <p className={styles.cardDesc}>
-                We try to architect new models for understanding videos - a long-waited open
-                problem in computer vision. See more details in our publication pages.
+                We try to architect new models for understanding videos, a long-waited open problem in computer vision.
+                We want to learn a model to capture complex temporal dynamics and rich context across long video sequences along with language understanding.
+              </p>
+            </article>
+            <article className={styles.card}>
+              <h3 className={styles.cardTitle}>Embodied / Physical AI</h3>
+              <p className={styles.cardDesc}>
+                Combining few-shot, continual video understanding with language understanding, we
+                try to architect new models to build a robotics agent to help household tasks
+                (<i>e.g.</i>, bring a cup of water from the kitchen).
               </p>
             </article>
           </div>
         </section>
       </FadeIn>
 
-      <FadeIn>
+      {/* <FadeIn>
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>How to Join SNUMPR?</h2>
-          <p className={styles.description}>
+          <h3 className={styles.sectionTitle}>Fill up the Google form here: 
+            <a
+              href={links.googleForm}
+              className={styles.linkButton}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FormIcon className={styles.formIcon} />
+              Google Form Link
+            </a>
+          </h>
+          {p className={styles.description}>
             {`We are a team of researchers and engineers who are serious in machine learning and computer vision.
 Here are our answers to some of frequently asked questions regarding joining our group.`}
           </p>
-          {/* Google Form link is hidden until an application form is available.
-          <a
-            href={links.googleForm}
-            className={styles.linkButton}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FormIcon className={styles.formIcon} />
-            Google Form Link
-          </a> */}
         </section>
-      </FadeIn>
+      </FadeIn> */}
+
+
     </main>
   );
 }
