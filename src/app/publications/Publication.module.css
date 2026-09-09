@@ -366,7 +366,17 @@
   gap: 3rem;
   width: 100%;
   margin-bottom: 2rem;
-  position: relative;
+  /* position: relative; */
+
+  /* 상단 고정 설정 */
+  position: sticky;
+  top: 90px; /* 네비게이션 바(Header) 높이에 맞게 조절 (보통 60px~80px) */
+  z-index: 10; /* 논문 카드들 위로 올라오도록 설정 */
+
+  /* 스크롤 시 뒤의 콘텐츠가 비치지 않도록 배경색 설정 */
+  background-color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;  
 }
 
 .filterGroup {

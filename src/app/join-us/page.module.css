@@ -11,7 +11,7 @@
 }
 
 .section {
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -23,7 +23,7 @@
 .sectionTitle {
   font-size: 3rem;
   font-weight: 500;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   line-height: 1.2;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .heroDescription {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: var(--text-gray);
   white-space: pre-wrap;
   line-height: 1.5;
@@ -226,8 +226,8 @@
   display: inline-flex;
   align-items: center;
   padding: 0.8rem 1.2rem;
-  background-color: var(--color-bg-card);
-  color: var(--black);
+  background-color: #FEF08A;
+  color: #1E293B;
   text-decoration: none;
   border-radius: 12px;
   font-size: 1.6rem;
@@ -240,9 +240,85 @@
   box-shadow: 0 3px 6px var(--color-shadow-faint);
 }
 
+/* 💛 왼쪽: 노란색 버튼 (Graduate) */
+.graduateBtn {
+  background-color: #FEF08A;
+  color: #1E293B;
+  border: 1px solid #FDE047;
+}
+
+.graduateBtn:hover {
+  background-color: #FDE047;
+  box-shadow: 0 3px 6px var(--color-shadow-faint);
+}
+
+/* 💙 오른쪽: 파스텔 블루 버튼 (Undergraduate) */
+.undergradBtn {
+  background-color: #DCFCE7;
+  color: #14532D;
+  border: 1px solid #BBF7D0;
+}
+
+.undergradBtn:hover {
+  background-color: #BBF7D0;
+  box-shadow: 0 3px 6px var(--color-shadow-faint);
+}
+
 .formIcon {
   width: 13px;
   height: 17px;
+}
+
+
+.noticeBox {
+  background-color: #F0F7FF; /* 연한 노란색 배경 */
+  border-radius: 16px;       /* 둥근 모서리 */
+  padding: 2.4rem 2.8rem;    /* 내부 여백 */
+  margin-bottom: 4rem;       
+}
+
+.noticeTitle {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #1E293B;            /* 짙은 남색/검은색 계열 */
+  margin-bottom: 1.2rem;
+}
+
+.noticeText {
+  font-size: 1.5rem;
+  color: #334155;            /* 브라운 계열 텍스트 */
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.noticeSubTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1E293B;
+  margin-bottom: 1rem;
+}
+
+.noticeList {
+  list-style: disc;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* last ul margin to be 0 */
+.noticeBox > ul.noticeList:last-of-type {
+  margin-bottom: 0;
+}
+
+.noticeList li {
+  font-size: 1.5rem;
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 0.6rem;
+}
+
+.noticeList li strong {
+  color: #1E1B4B;            /* 강조 텍스트 */
+  font-weight: 600;
 }
 
 @media screen and (max-width: 900px) {
@@ -252,5 +328,18 @@
     font-size: 1.2rem;
     margin-top: 0;
     gap: 0.5rem;
+  }
+  .noticeBox {
+    padding: 1.8rem;
+    margin-bottom: 2.5rem;
+  }
+  .noticeTitle {
+    font-size: 1.8rem;
+  }
+  .noticeText, .noticeList li {
+    font-size: 1.2rem;
+  }
+  .noticeSubTitle {
+    font-size: 1.4rem;
   }
 }
