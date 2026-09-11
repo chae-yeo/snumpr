@@ -14,9 +14,25 @@
   margin-bottom: 5rem;
 }
 
+.aboutSection {
+  margin-top: 4rem;
+}
+
+.researchTopicsSection {
+  margin-top: 4rem;
+}
+
 @media screen and (max-width: 900px) {
   .section {
     margin-bottom: 3rem;
+  }
+
+  .aboutSection {
+    margin-top: 2.4rem;
+  }
+
+  .researchTopicsSection {
+    margin-top: 2.4rem;
   }
 }
 

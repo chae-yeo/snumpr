@@ -69,7 +69,7 @@ export default function JoinUsPage() {
               rel="noreferrer"
             >
               <FormIcon className={styles.formIcon} />
-              Google Form: Graudate Application
+              Google Form: Graduate Application
             </a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a
@@ -86,7 +86,7 @@ export default function JoinUsPage() {
       </FadeIn>
 
       <FadeIn>
-        <section className={styles.section}>
+        <section className={`${styles.section} ${styles.aboutSection}`}>
           <h2 className={styles.sectionTitle}>About us</h2>
           <p className={styles.description}>
             The team&apos;s primary focus is to get you succeeded in your career path. Customizing
@@ -200,11 +200,11 @@ We are buying more!`}
       </FadeIn>
 
       <FadeIn>
-        <section className={styles.section}>
+        <section className={`${styles.section} ${styles.researchTopicsSection}`}>
           <h2 className={styles.sectionTitle}>Research Topics</h2>
           <div className={styles.researchGrid}>
             <article className={styles.card}>
-              <h3 className={styles.cardTitle}>Machine Learning, Continual(Un-) Learning, Knowledge Transfer</h3>
+              <h3 className={styles.cardTitle}>Machine Learning, Continual (Un-)Learning, Knowledge Transfer</h3>
               <p className={styles.cardDesc}>
                 We try to transfer knowledge in models to expedite learning and reasoning. 
                 We focus on model adaptability, efficiently updating.
