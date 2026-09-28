@@ -160,7 +160,7 @@
   position: relative;
   width: 100%;
   aspect-ratio: 4 / 3;
-  background-color: var(--divider-gray);
+  background-color: var(--white);
   overflow: hidden;
 }
 
@@ -280,10 +280,15 @@
 .highlightImageWrapper {
   position: relative;
   width: 100%;
-  aspect-ratio: 4 / 3;
-  background-color: var(--gray);
+  aspect-ratio: 3 / 4;
+  background-color: var(--white);
   margin-bottom: 1.2rem;
   overflow: hidden;
+}
+
+.highlightImageWrapper .image,
+.newsModalImageWrapper .image {
+  object-fit: contain;
 }
 
 .newsModalOverlay {
@@ -366,10 +371,10 @@
   position: relative;
   width: min(100%, 78rem);
   margin: 0 auto;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   border-radius: 0.8rem;
-  background-color: var(--divider-gray);
+  background-color: var(--white);
 }
 
 .newsModalInfo {
