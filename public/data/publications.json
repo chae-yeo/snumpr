@@ -1,5 +1,39 @@
 [
   {
+    "title": "Visual Grounding First, Multimodal In-context Learning Follows",
+    "authors": ["Minhyuk Seo","Minjae Lee","Chaeeun Lee","Jonghyun Choi"],
+    "journalsInfo": "NeurIPS 2026",
+    "thumbnailUrl": "/images/publications/visualgrounding.png",
+    "links": [
+    ],
+    "researchTopic": [
+      "Foundation Models & Agents",
+      "Visual Understanding"
+    ],
+    "year": "2026",
+    "modality": [
+      "Vision",
+      "Language"
+    ],
+    "recognition": []
+  },
+  {
+    "title": "Action Chunking Proximal Policy Optimization with Feedback Correction",
+    "authors": ["Sanghyun Hahn", "Jonghyun Choi"],
+    "journalsInfo": "NeurIPS 2026",
+    "thumbnailUrl": "/images/publications/actionchunking.png",
+    "links": [
+    ],
+    "researchTopic": [
+      "Embodied AI & Robotics"
+    ],
+    "year": "2026",
+    "modality": [
+      "Action"
+    ],
+    "recognition": []
+  },
+  {
     "title": "RTSGameBench: An RTS Benchmark for Strategic Reasoning by Vision-Language Models",
     "authors": [
       "San Kim",

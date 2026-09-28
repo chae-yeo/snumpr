@@ -192,7 +192,7 @@ snumpr/
 | `links[].label`   | **PDF / Code / Data / Page / Supp / Media / Slides** 권장 (`theme.css`에 색이 매핑되어 있습니다) |
 | `researchTopic`   | 배열. 아래 6개 Topic 중 논문에 해당하는 항목을 넣습니다.                                                     |
 | `year`            | `"2026"`, `"2025"`, `"Preprint"` 등                                                              |
-| `modality`        | 배열. `Vision`, `Language`, `Speech` 중 하나 이상                                                  |
+| `modality`        | 배열. `Vision`, `Language`, `Speech`, `Action` 중 하나 이상                                        |
 | `recognition`     | 배열. `Award winning`, `Oral/Spotlight`, `Highly cited` 중 하나 이상. 해당 없으면 `[]`             |
 | `recognitionVenues` | 선택 항목. recognition을 받은 venue 목록. 두 곳 이상이면 목록 수만큼 메달이 표시됩니다.           |
 
