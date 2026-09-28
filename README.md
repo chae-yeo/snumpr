@@ -22,7 +22,7 @@ npm run dev
 
 ### 배포
 
-실제 서울대 서버 반영은 **로컬에서 수정 → GitHub에 push → 서버에서 pull·build·재시작** 순서로 진행합니다.
+실제 서울대 서버 반영은 **로컬에서 수정 → GitHub에 push → GitHub Actions에서 배포 실행** 순서로 진행합니다.
 
 #### 1) 로컬에서 수정 확인 후 GitHub에 올리기
 
@@ -41,7 +41,23 @@ git push
 
 #### 2) 서울대 서버에 반영하기
 
-학내망 또는 SNU VPN에서 서버에 접속한 뒤 아래를 순서대로 실행합니다.
+기본 배포 방법은 GitHub Actions입니다. 서버에 직접 SSH로 접속하지 않아도, GitHub의 배포 버튼을 누르면 서울대 서버가 자동으로 최신 코드를 받아 빌드하고 홈페이지를 재시작합니다.
+
+1. GitHub 저장소에서 **Actions** 탭으로 이동합니다.
+2. 왼쪽 목록에서 **Deploy website**를 선택합니다.
+3. **Run workflow**를 누르고, branch가 `main`인지 확인한 뒤 초록색 **Run workflow** 버튼을 누릅니다.
+
+아래 단계가 모두 초록 체크로 끝나면 실제 홈페이지 반영까지 성공한 것입니다.
+
+```text
+Update source → Install dependencies → Build website → Restart website → Check website health
+```
+
+이 방식은 `snumpr-deploy` GitHub Actions Runner가 서울대 서버 안에서 실행하는 방식입니다. 따라서 학외에서 서버 SSH 접속이 막혀 있어도 GitHub에 접속할 수 있으면 배포할 수 있습니다. 안전을 위해 현재는 `git push`만으로 자동 실행되지 않고, **Run workflow 버튼을 눌렀을 때만** 배포됩니다.
+
+##### 대체안: 서버에서 직접 수동 배포
+
+GitHub Actions가 실패했거나 서버 상태를 직접 확인해야 할 때만 사용합니다. 학내망 또는 SNU VPN에서 서버에 접속한 뒤 아래를 순서대로 실행합니다.
 
 ```bash
 ssh lab_page
@@ -69,7 +85,9 @@ sudo systemctl restart snumpr
 
 #### 3) 반영 확인
 
-서버에서 아래 결과가 각각 `active`, `HTTP/1.1 200 OK`인지 확인합니다.
+GitHub Actions 배포를 사용했다면 **Check website health**까지 초록 체크인지 확인하면 됩니다.
+
+수동 배포를 했다면 서버에서 아래 결과가 각각 `active`, `HTTP/1.1 200 OK`인지 확인합니다.
 
 ```bash
 sudo systemctl is-active snumpr
